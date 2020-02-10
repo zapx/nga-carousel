@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "id": "ngx-owl-carousel",
+    "title": "A owl-carousel of Angular",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        }
+    },
+    "required": [],
+    "additionalProperties": true
+}

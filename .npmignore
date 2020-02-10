@@ -1,0 +1,8 @@
+# Ignores TypeScript files, but keeps definitions.
+*.ts
+!*.d.ts
+project
+
+# Lock
+package-lock.json
+yarn.lock

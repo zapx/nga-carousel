@@ -1,0 +1,17 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-add": {
+      "description": "Owl-carousel of Angular",
+      "factory": "./packages/nga-carousel/index",
+      "schema": "./packages/nga-carousel/schema.json",
+      "aliases": ["install"]
+    },
+    "workspace": {
+      "factory": "./packages/workspace/index",
+      "schema": "./packages/workspace/schema.json",
+      "description": "Create an Angular workspace.",
+      "hidden": true
+    }
+  }
+}
